@@ -1,0 +1,2 @@
+/var/home/Wtjoh/djgpp/bin/../lib/gcc/i586-pc-msdosdjgpp/12.2.0/../../../../i586-pc-msdosdjgpp/bin/ld: cannot find -lrt
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,13 @@
+OUTPUT_OBJ := -o$(space)
+OUTPUT_EXE := -o$(space)
+OBJ_EXT := o
+CFLAGS := -O2 -DNDEBUG
+INC := -I
+DEFINE := -D
+COMPILE_OBJ := -c
+SYNTAX := gcc
+_CC := i586-pc-msdosdjgpp-gcc
+DEFINES += $(DEFINE)NO_FMIN
+DEFINES += $(DEFINE)NO_FMAX
+INCLUDES += $(INC)compat/getopt
+HEADERS += compat/getopt/getopt.h
