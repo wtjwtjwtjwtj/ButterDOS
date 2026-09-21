@@ -1,3 +1,10 @@
+# ButterDOS
+An unofficial fork of Butterscotch runner built specifically for DOS
+This project just began, so there is a BUNCH of bugs, but it is still farly playable. There currently is working Soundblaster sound, it's compatible with HDPMI32I, so you can use SBEMU (I'm planning on trying to get CWSDPMI working too.)
+The things im currently focusing on to fix is currently slowdowns (even on a 2nd gen i7) and sound effects.
+
+# Original README
+
 <div align="center">
 <img width="256" height="256" alt="Butterscotch Logo" src="https://github.com/user-attachments/assets/ef8bdd5c-d407-4b3c-a4d5-07b25e8bbc70" />
 </div>
