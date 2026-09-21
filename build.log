@@ -1,0 +1,58 @@
+ CC src/binary_reader.c
+ CC src/data_win.c
+ CC src/data_win_print.c
+ CC src/debug_overlay.c
+ CC src/dos_audio_system.c
+ CC src/dos_renderer.c
+src/dos_renderer.c: In function 'dosEndFrameEnd':
+src/dos_renderer.c:669:24: warning: implicit declaration of function 'nowNanos' [-Wimplicit-function-declaration]
+  669 |         uint64_t now = nowNanos();
+      |                        ^~~~~~~~
+src/dos_renderer.c: In function 'DOSRenderer_create':
+src/dos_renderer.c:1299:55: warning: assignment to 'int32_t (*)(Renderer *, int32_t,  int32_t,  int32_t,  int32_t,  int32_t,  _Bool,  _Bool,  int32_t,  int32_t)' {aka 'long int (*)(Renderer *, long int,  long int,  long int,  long int,  long int,  _Bool,  _Bool,  long int,  long int)'} from incompatible pointer type 'int32_t (*)(Renderer *, int32_t,  int32_t,  int32_t,  int32_t,  _Bool,  _Bool,  int32_t,  int32_t)' {aka 'long int (*)(Renderer *, long int,  long int,  long int,  long int,  _Bool,  _Bool,  long int,  long int)'} [-Wincompatible-pointer-types]
+ 1299 |                     dosVtable.createSpriteFromSurface = dosCreateSpriteFromSurface;
+      |                                                       ^
+ CC src/event_table.c
+ CC src/gettime.c
+ CC src/gml_array.c
+ CC src/gml_method.c
+ CC src/ini.c
+ CC src/input_recording.c
+ CC src/instance.c
+ CC src/int_int_hashmap.c
+ CC src/int_rvalue_hashmap.c
+ CC src/json_reader.c
+ CC src/json_writer.c
+ CC src/log.c
+ CC src/loop.c
+ CC src/noop_audio_system.c
+ CC src/noop_file_system.c
+ CC src/noop_renderer.c
+ CC src/overlay_file_system.c
+ CC src/profiler.c
+ CC src/random.c
+ CC src/runner.c
+ CC src/runner_gamepad.c
+ CC src/runner_keyboard.c
+ CC src/runner_mouse.c
+ CC src/spatial_grid.c
+ CC src/stb_ds.c
+ CC src/string_builder.c
+ CC src/vm_builtins.c
+ CC src/vm.c
+ CC src/debug_font/debug_font_4bpp.c
+ CC src/debug_font/debug_font.c
+ CC src/image/image_decoder.c
+ CC vendor/bzip2/bz_internal_error.c
+ CC vendor/bzip2/bzlib.c
+ CC vendor/bzip2/crctable.c
+ CC vendor/bzip2/decompress.c
+ CC vendor/bzip2/huffman.c
+ CC vendor/bzip2/randtable.c
+ CC vendor/md5/md5.c
+ CC vendor/sha1/sha1.c
+ CC vendor/base64/base64.c
+ CC src/cli/main.c
+ CC src/cli/stb_impl.c
+ CC src/backends/noop.c
+ LD bscotch
