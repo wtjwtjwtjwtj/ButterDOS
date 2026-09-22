@@ -1,8 +1,8 @@
 # ButterDOS
 A port of the Butterscotch runner specifically built for DOS.
 Little note, this was tested ONLY with FreeDOS T2609 and HDPMI32i. I am planning on adding a patch compatible with CWSDPMI after this releases.
-# THIS IS NOT RELEASED YET
-There is a good amount of bugs, like no sound effects, stretching 4:3 games to 16:9, many slowdowns on 2010 cpus, I will release this when the sound effects are fixed. I will release a patch to focus on optimization next.
+# THIS IS CLOSE TO RELEASE
+There is a good amount of bugs, and I am currently working on optimizations due to sound effects being fixed. Still runs weird on a 486, so I'm working on that.
 # Original README
 
 <div align="center">
