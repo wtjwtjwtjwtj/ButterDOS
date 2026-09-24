@@ -2,7 +2,7 @@
 A port of the Butterscotch runner specifically built for DOS.
 Little note, this was tested ONLY with FreeDOS T2609 and HDPMI32i. I am planning on adding a patch compatible with CWSDPMI after this releases.
 # THIS IS CLOSE TO RELEASE
-There is a good amount of bugs, and I am currently working on optimizations due to sound effects being fixed. Still runs weird on a 486, so I'm working on that.
+This was not been fully tested with UNDERTALE, but it does run it. It has been tested with Omega flowey to help with optimization, and I finally got it. by default, if it detects a frame drop below 23 for .5 seconds, it switches to a pixelated mode for the rest of the game unless exited. If you want to disable it, run the normal command, but with /Pixelated for pixelated mode, and /Native for native resolution. Pixelated resolution has been tested on a 59MHZ 80486 that was emulated using SLOWDOWN. Native resolution has been tested on a 2nd gen I7.
 # Original README
 
 <div align="center">
